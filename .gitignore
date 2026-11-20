@@ -1,0 +1,24 @@
+# Dependencies
+node_modules
+.pnp
+.pnp.js
+
+# Production build artifacts
+dist
+build
+.tsbuildinfo
+tsconfig.tsbuildinfo
+
+# Local Environment Variables & Secrets
+.env
+.env.local
+.env.*.local
+*.local
+
+# Editor & OS files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+Thumbs.db
+*.log

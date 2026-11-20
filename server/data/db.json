@@ -1,0 +1,1104 @@
+{
+  "users": [
+    {
+      "id": "USR-ADMIN",
+      "email": "admin@ecycle.com",
+      "passwordHash": "admin123",
+      "name": "E-Cycle Administrator",
+      "role": "admin",
+      "createdAt": 1792574381586
+    },
+    {
+      "id": "USR-TECH",
+      "email": "tech@fixforward.com",
+      "passwordHash": "tech123",
+      "name": "Rajesh Sharma",
+      "role": "technician",
+      "partnerId": "P-02",
+      "createdAt": 1793438381586
+    },
+    {
+      "id": "USR-PARTNER",
+      "email": "partner@ecoloop.com",
+      "passwordHash": "partner123",
+      "name": "EcoLoop Operations",
+      "role": "partner",
+      "partnerId": "P-05",
+      "createdAt": 1793870381586
+    },
+    {
+      "id": "USR-CUSTOMER",
+      "email": "user@example.com",
+      "passwordHash": "user123",
+      "name": "Priya Patel",
+      "role": "resident",
+      "createdAt": 1794302381586
+    },
+    {
+      "id": "USR-596395",
+      "email": "customer_1795167596386@test.com",
+      "passwordHash": "password123",
+      "name": "Siddharth Rao",
+      "role": "resident",
+      "createdAt": 1795167596396
+    },
+    {
+      "id": "USR-915408",
+      "email": "customerb@example.com",
+      "passwordHash": "user123",
+      "name": "Ananya Sharma",
+      "role": "resident",
+      "createdAt": 1795171915408
+    }
+  ],
+  "partners": [
+    {
+      "id": "P-01",
+      "name": "GreenTech Repair Hub",
+      "type": "repair",
+      "categories": [
+        "Laptop",
+        "Smartphone",
+        "Tablet",
+        "Keyboard",
+        "Printer",
+        "Cables & Chargers",
+        "Extension Boards & Power Strips"
+      ],
+      "locality": "Borivali",
+      "pincode": "400066",
+      "capacity": 10,
+      "active": 3,
+      "verified": true,
+      "specialization": "Electronics diagnostics & board-level repair",
+      "available": true,
+      "isRealProvider": true,
+      "contactPerson": "Amit Verma",
+      "phone": "+91 98201 12345"
+    },
+    {
+      "id": "P-02",
+      "name": "FixForward Studio",
+      "type": "repair",
+      "categories": [
+        "Laptop",
+        "Monitor",
+        "Television",
+        "Headphones",
+        "Camera",
+        "Cables & Chargers"
+      ],
+      "locality": "Kandivali",
+      "pincode": "400101",
+      "capacity": 8,
+      "active": 0,
+      "verified": true,
+      "specialization": "Display, audio and computer hardware repair",
+      "available": true,
+      "isRealProvider": true,
+      "contactPerson": "Rajesh Sharma",
+      "phone": "+91 98202 23456"
+    },
+    {
+      "id": "P-03",
+      "name": "Digital Bridges Foundation",
+      "type": "donate",
+      "categories": [
+        "Smartphone",
+        "Laptop",
+        "Tablet",
+        "Monitor",
+        "Keyboard",
+        "Cables & Chargers"
+      ],
+      "locality": "Mira Road",
+      "pincode": "401107",
+      "capacity": 15,
+      "active": 3,
+      "verified": true,
+      "specialization": "Digital empowerment & education refurbishing",
+      "needs": "Working computers & learning devices for students",
+      "available": true,
+      "isRealProvider": true,
+      "contactPerson": "Meera Deshmukh",
+      "phone": "+91 98203 34567"
+    },
+    {
+      "id": "P-04",
+      "name": "Second Life Community Reuse",
+      "type": "donate",
+      "categories": [
+        "Smartphone",
+        "Laptop",
+        "Television",
+        "Camera",
+        "Headphones",
+        "Extension Boards & Power Strips"
+      ],
+      "locality": "Dahisar",
+      "pincode": "400068",
+      "capacity": 12,
+      "active": 2,
+      "verified": true,
+      "specialization": "Community reuse & underprivileged distribution",
+      "needs": "Usable consumer electronics & accessories",
+      "available": true,
+      "isRealProvider": false,
+      "contactPerson": "Sanjay Rao",
+      "phone": "+91 98204 45678"
+    },
+    {
+      "id": "P-05",
+      "name": "EcoLoop Collection Point",
+      "type": "recycle",
+      "categories": [
+        "Smartphone",
+        "Laptop",
+        "Tablet",
+        "Monitor",
+        "Television",
+        "Keyboard",
+        "Mouse",
+        "Printer",
+        "Headphones",
+        "Camera",
+        "Cables & Chargers",
+        "Extension Boards & Power Strips",
+        "Batteries",
+        "Small Appliance",
+        "Other electronic devices"
+      ],
+      "locality": "Borivali",
+      "pincode": "400066",
+      "capacity": 25,
+      "active": 5,
+      "verified": true,
+      "specialization": "Government-authorized hazardous & separated e-waste collection",
+      "available": true,
+      "isRealProvider": true,
+      "contactPerson": "Vikram Joshi",
+      "phone": "+91 98205 56789"
+    },
+    {
+      "id": "P-06",
+      "name": "CircularCity Recyclers",
+      "type": "recycle",
+      "categories": [
+        "Smartphone",
+        "Laptop",
+        "Tablet",
+        "Monitor",
+        "Television",
+        "Keyboard",
+        "Mouse",
+        "Printer",
+        "Headphones",
+        "Camera",
+        "Cables & Chargers",
+        "Extension Boards & Power Strips",
+        "Batteries",
+        "Small Appliance",
+        "Other electronic devices"
+      ],
+      "locality": "Mira Road",
+      "pincode": "401107",
+      "capacity": 20,
+      "active": 3,
+      "verified": true,
+      "specialization": "Material extraction, heavy metal isolation and PCB recycling",
+      "available": true,
+      "isRealProvider": true,
+      "contactPerson": "Anita Kulkarni",
+      "phone": "+91 98206 67890"
+    }
+  ],
+  "devices": [
+    {
+      "id": "DV-E6577436",
+      "name": "one plus",
+      "category": "Smartphone",
+      "brand": "one plus",
+      "model": "nord",
+      "age": 2,
+      "condition": "Good",
+      "issue": "",
+      "pincode": "400066",
+      "locality": "Borivali",
+      "createdAt": 1795172172886,
+      "working": true,
+      "powersOn": true,
+      "damage": false,
+      "battery": false,
+      "swollen": false,
+      "missing": false,
+      "usable": true,
+      "repairCost": 0,
+      "replacementValue": 0,
+      "owner": "Priya Patel",
+      "ownerEmail": "user@example.com"
+    },
+    {
+      "id": "DV-3A9A3139",
+      "name": "one plus",
+      "category": "Smartphone",
+      "brand": "one plus",
+      "model": "nord",
+      "age": 2,
+      "condition": "Good",
+      "issue": "",
+      "pincode": "400066",
+      "locality": "Borivali",
+      "createdAt": 1795172089819,
+      "working": true,
+      "powersOn": true,
+      "damage": false,
+      "battery": false,
+      "swollen": false,
+      "missing": false,
+      "usable": true,
+      "repairCost": 0,
+      "replacementValue": 0,
+      "owner": "Priya Patel",
+      "ownerEmail": "user@example.com"
+    },
+    {
+      "id": "DEV-101",
+      "name": "Dell Inspiron 15",
+      "category": "Laptop",
+      "brand": "Dell",
+      "model": "Inspiron 15 3501",
+      "age": 3,
+      "condition": "Fair",
+      "issue": "Screen has minor lines, powers on cleanly",
+      "pincode": "400066",
+      "locality": "Borivali",
+      "createdAt": 1794561581586,
+      "working": true,
+      "powersOn": true,
+      "damage": true,
+      "battery": false,
+      "swollen": false,
+      "missing": false,
+      "usable": true,
+      "repairCost": 2500,
+      "replacementValue": 18000,
+      "owner": "Priya Patel",
+      "ownerEmail": "user@example.com"
+    },
+    {
+      "id": "DEV-102",
+      "name": "Heavy Duty Extension Board",
+      "category": "Extension Boards & Power Strips",
+      "brand": "Anchor",
+      "model": "4-Socket Reel",
+      "age": 4,
+      "condition": "Poor",
+      "issue": "Switch sparking, cable reel worn out",
+      "pincode": "400101",
+      "locality": "Kandivali",
+      "createdAt": 1794734381586,
+      "working": false,
+      "powersOn": false,
+      "damage": true,
+      "battery": false,
+      "swollen": false,
+      "missing": false,
+      "usable": false,
+      "repairCost": 400,
+      "replacementValue": 950
+    },
+    {
+      "id": "DEV-103",
+      "name": "VGA Display Cable (3m)",
+      "category": "Cables & Chargers",
+      "brand": "Belkin",
+      "model": "VGA Male to Male",
+      "age": 5,
+      "condition": "Good",
+      "issue": "Replaced with HDMI, no longer needed",
+      "pincode": "401107",
+      "locality": "Mira Road",
+      "createdAt": 1794820781586,
+      "working": true,
+      "powersOn": true,
+      "damage": false,
+      "battery": false,
+      "swollen": false,
+      "missing": false,
+      "usable": true,
+      "repairCost": 0,
+      "replacementValue": 300
+    },
+    {
+      "id": "DEV-104",
+      "name": "Old CRT Monitor 17\"",
+      "category": "Monitor",
+      "brand": "Samsung",
+      "model": "SyncMaster 793s",
+      "age": 14,
+      "condition": "Non-working",
+      "issue": "Flyback transformer failure, obsolete",
+      "pincode": "400068",
+      "locality": "Dahisar",
+      "createdAt": 1794993581586,
+      "working": false,
+      "powersOn": false,
+      "damage": false,
+      "battery": false,
+      "swollen": false,
+      "missing": false,
+      "usable": false,
+      "repairCost": 3000,
+      "replacementValue": 500
+    },
+    {
+      "id": "DEV-105",
+      "name": "Heavy Power Strips & Obsolete Cables Bundle",
+      "category": "Extension Boards & Power Strips",
+      "brand": "Cona & Generic",
+      "model": "Assorted Cords & Adapters",
+      "age": 6,
+      "condition": "Poor",
+      "issue": "Damaged insulation and broken sockets",
+      "pincode": "400066",
+      "locality": "Borivali",
+      "createdAt": 1794734381586,
+      "working": false,
+      "powersOn": false,
+      "damage": true,
+      "battery": false,
+      "swollen": false,
+      "missing": false,
+      "usable": false,
+      "repairCost": 500,
+      "replacementValue": 800,
+      "owner": "Priya Patel",
+      "ownerEmail": "user@example.com"
+    }
+  ],
+  "requests": [
+    {
+      "id": "REQ-2683",
+      "owner": "Priya Patel",
+      "ownerEmail": "user@example.com",
+      "deviceId": "DV-E6577436",
+      "deviceName": "one plus",
+      "category": "Smartphone",
+      "condition": "Good",
+      "action": "repair",
+      "recommendedAction": "repair",
+      "partnerId": "P-01",
+      "partnerName": "GreenTech Repair Hub",
+      "status": "Accepted",
+      "createdAt": 1795172282683,
+      "pickupDate": "2026-11-20",
+      "pickupSlot": "10:00–12:00",
+      "address": "",
+      "locality": "Borivali",
+      "pincode": "400066",
+      "weight": 1,
+      "internalNotes": [],
+      "history": [
+        {
+          "status": "Pending",
+          "at": 1795172282683,
+          "user": "Priya Patel",
+          "note": "Request submitted online via E-Cycle Smart Scan"
+        },
+        {
+          "status": "Assigned",
+          "at": 1795172282683,
+          "user": "Smart Allocation",
+          "note": "Assigned to GreenTech Repair Hub"
+        },
+        {
+          "status": "Accepted",
+          "at": 1795172362027,
+          "user": "E-Cycle Administrator",
+          "note": "Status updated to Accepted"
+        }
+      ]
+    },
+    {
+      "id": "REQ-5370",
+      "owner": "Priya Patel",
+      "ownerEmail": "user@example.com",
+      "deviceId": "DEV-101",
+      "deviceName": "Dell Inspiron 15",
+      "category": "Laptop",
+      "condition": "Fair",
+      "action": "repair",
+      "recommendedAction": "repair",
+      "partnerId": null,
+      "partnerName": null,
+      "status": "Cancelled",
+      "createdAt": 1795171915370,
+      "pickupDate": null,
+      "pickupSlot": null,
+      "address": "",
+      "locality": "Borivali",
+      "pincode": "400066",
+      "weight": 1,
+      "internalNotes": [],
+      "history": [
+        {
+          "status": "Pending",
+          "at": 1795171915370,
+          "user": "Priya Patel",
+          "note": "Request submitted online via E-Cycle Smart Scan"
+        },
+        {
+          "status": "Cancelled",
+          "at": 1795171915394,
+          "user": "Priya Patel",
+          "note": "Cancelled by customer"
+        }
+      ]
+    },
+    {
+      "id": "REQ-6816",
+      "owner": "Priya Patel",
+      "ownerEmail": "user@example.com",
+      "deviceId": "DV-BF2BB892",
+      "deviceName": "abc",
+      "category": "Smartphone",
+      "condition": "Good",
+      "action": "recycle",
+      "recommendedAction": "donate",
+      "partnerId": "P-05",
+      "partnerName": "EcoLoop Collection Point",
+      "status": "Completed",
+      "createdAt": 1795169716816,
+      "pickupDate": "2026-11-25",
+      "pickupSlot": "10:00–12:00",
+      "address": "Shop 4, Market Road, Borivali West",
+      "locality": "Borivali",
+      "pincode": "400066",
+      "weight": 4.85,
+      "internalNotes": [],
+      "history": [
+        {
+          "status": "Pending",
+          "at": 1795169716816,
+          "user": "Priya Patel",
+          "note": "Request submitted online via E-Cycle Smart Scan"
+        },
+        {
+          "status": "Assigned",
+          "at": 1795169716816,
+          "user": "Smart Allocation",
+          "note": "Assigned to EcoLoop Collection Point"
+        },
+        {
+          "status": "Pickup Scheduled",
+          "at": 1795170697733,
+          "user": "EcoLoop Operations",
+          "note": "Scheduled for local door-to-door e-waste batch pickup."
+        },
+        {
+          "status": "Collected",
+          "at": 1795170697739,
+          "user": "EcoLoop Operations",
+          "note": "Collected from doorstep and weighed on calibrated electronic scales."
+        },
+        {
+          "status": "Pickup Scheduled",
+          "at": 1795170714305,
+          "user": "EcoLoop Operations",
+          "note": "Scheduled for local door-to-door e-waste batch pickup."
+        },
+        {
+          "status": "Collected",
+          "at": 1795170714313,
+          "user": "EcoLoop Operations",
+          "note": "Collected from doorstep and weighed on calibrated electronic scales."
+        },
+        {
+          "status": "Pickup Scheduled",
+          "at": 1795170780073,
+          "user": "EcoLoop Operations",
+          "note": "Scheduled for local door-to-door e-waste batch pickup."
+        },
+        {
+          "status": "Collected",
+          "at": 1795170780079,
+          "user": "EcoLoop Operations",
+          "note": "Collected from doorstep and weighed on calibrated electronic scales."
+        },
+        {
+          "status": "Completed",
+          "at": 1795172585036,
+          "user": "EcoLoop Operations",
+          "note": "Collection processing & transfer to recycling facility completed."
+        }
+      ],
+      "collectionNotes": "Batch weight verified: 4.85 kg. Heavy gauge copper cables separated."
+    },
+    {
+      "id": "REQ-7563",
+      "owner": "Priya Patel",
+      "ownerEmail": "user@example.com",
+      "deviceId": "DV-E658AEB6",
+      "deviceName": "abc",
+      "category": "Smartphone",
+      "condition": "Good",
+      "action": "repair",
+      "recommendedAction": "donate",
+      "partnerId": "P-01",
+      "partnerName": "GreenTech Repair Hub",
+      "status": "Cancelled",
+      "createdAt": 1795169337563,
+      "pickupDate": "2026-11-20",
+      "pickupSlot": "10:00–12:00",
+      "address": "",
+      "locality": "Borivali",
+      "pincode": "400066",
+      "weight": 1,
+      "internalNotes": [
+        "[20/11/2026, 3:39:35 pm] (Priya Patel): sdfg"
+      ],
+      "history": [
+        {
+          "status": "Pending",
+          "at": 1795169337563,
+          "user": "Priya Patel",
+          "note": "Request submitted online via E-Cycle Smart Scan"
+        },
+        {
+          "status": "Assigned",
+          "at": 1795169337563,
+          "user": "Smart Allocation",
+          "note": "Assigned to GreenTech Repair Hub"
+        },
+        {
+          "status": "Pickup Scheduled",
+          "at": 1795169390091,
+          "user": "Priya Patel",
+          "note": "Status updated to Pickup Scheduled"
+        },
+        {
+          "status": "Cancelled",
+          "at": 1795169395478,
+          "user": "Priya Patel",
+          "note": "Status updated to Cancelled"
+        },
+        {
+          "status": "Rejected",
+          "at": 1795169397151,
+          "user": "Priya Patel",
+          "note": "Status updated to Rejected"
+        },
+        {
+          "status": "Cancelled",
+          "at": 1795169398201,
+          "user": "Priya Patel",
+          "note": "Status updated to Cancelled"
+        }
+      ]
+    },
+    {
+      "id": "REQ-6412",
+      "owner": "Siddharth Rao",
+      "ownerEmail": "customer_1795167596386@test.com",
+      "deviceId": "DEV-1795167596412",
+      "deviceName": "Dell Inspiron 15 (Old School Laptop)",
+      "category": "Laptop",
+      "condition": "Good",
+      "action": "repair",
+      "recommendedAction": "repair",
+      "partnerId": "P-01",
+      "partnerName": "GreenTech Repair Hub",
+      "status": "Completed",
+      "createdAt": 1795167596412,
+      "pickupDate": "2026-11-25",
+      "pickupSlot": "10:00–12:00",
+      "address": "Flat 402, Green Park",
+      "locality": "Borivali",
+      "pincode": "400066",
+      "weight": 2.2,
+      "internalNotes": [
+        "[20/11/2026, 3:09:56 pm] (Admin): Verified customer warranty card attached during intake"
+      ],
+      "history": [
+        {
+          "status": "Pending",
+          "at": 1795167596412,
+          "user": "Siddharth Rao",
+          "note": "Request submitted online via E-Cycle Smart Scan"
+        },
+        {
+          "status": "Assigned",
+          "at": 1795167596449,
+          "user": "E-Cycle Administrator",
+          "note": "Assigned to GreenTech Repair Hub by E-Cycle Administrator. Note: Top matched repair studio in customer locality"
+        },
+        {
+          "status": "Accepted",
+          "at": 1795167596466,
+          "user": "GreenTech Repair Hub",
+          "note": "Partner accepted allocation"
+        },
+        {
+          "status": "Pickup Scheduled",
+          "at": 1795167596476,
+          "user": "Siddharth Rao",
+          "note": "Scheduled for morning pickup"
+        },
+        {
+          "status": "Collected",
+          "at": 1795167596485,
+          "user": "Field Collector Ramesh",
+          "note": "Device collected and securely sealed"
+        },
+        {
+          "status": "Under Assessment",
+          "at": 1795167596495,
+          "user": "Technician Anita",
+          "note": "Bench diagnostics in progress"
+        },
+        {
+          "status": "Completed",
+          "at": 1795167596506,
+          "user": "Technician Anita",
+          "note": "Display connector repaired, operational test passed"
+        }
+      ]
+    },
+    {
+      "id": "REQ-1001",
+      "owner": "Priya Patel",
+      "ownerEmail": "user@example.com",
+      "deviceId": "DEV-101",
+      "deviceName": "Dell Inspiron 15",
+      "category": "Laptop",
+      "condition": "Fair",
+      "action": "repair",
+      "recommendedAction": "repair",
+      "partnerId": "P-02",
+      "partnerName": "FixForward Studio",
+      "status": "Completed",
+      "createdAt": 1794647981586,
+      "pickupDate": "2026-11-21",
+      "pickupSlot": "10:00–12:00",
+      "address": "Flat 402, Sunshine Heights, Borivali West",
+      "locality": "Borivali",
+      "pincode": "400066",
+      "weight": 2.1,
+      "internalNotes": [
+        "Customer confirmed battery health is normal. Display issue only."
+      ],
+      "history": [
+        {
+          "status": "Pending",
+          "at": 1794647981587,
+          "user": "Priya Patel",
+          "note": "Request submitted online"
+        },
+        {
+          "status": "Assigned",
+          "at": 1794734381587,
+          "user": "Admin",
+          "note": "Assigned to FixForward Studio (Kandivali display repair specialist)"
+        },
+        {
+          "status": "Under Assessment",
+          "at": 1795170697717,
+          "user": "Rajesh Sharma",
+          "note": "Bench assessment completed. LCD backlight replacement required."
+        },
+        {
+          "status": "Under Assessment",
+          "at": 1795170714286,
+          "user": "Rajesh Sharma",
+          "note": "Bench assessment completed. LCD backlight replacement required."
+        },
+        {
+          "status": "Under Assessment",
+          "at": 1795170780052,
+          "user": "Rajesh Sharma",
+          "note": "Bench assessment completed. LCD backlight replacement required."
+        },
+        {
+          "status": "Completed",
+          "at": 1795172722176,
+          "user": "Rajesh Sharma",
+          "note": "Hardware repair & operational testing completed successfully. Ready for customer return."
+        }
+      ],
+      "diagnosis": "Damaged LCD flex ribbon & backlight inverter. Motherboard undamaged.",
+      "repairCost": 2800,
+      "estimate": 2800,
+      "partsRequired": "15.6\" IPS Display Panel, 40-pin EDP cable"
+    },
+    {
+      "id": "REQ-1005",
+      "owner": "Priya Patel",
+      "ownerEmail": "user@example.com",
+      "deviceId": "DEV-105",
+      "deviceName": "Heavy Power Strips & Obsolete Cables Bundle",
+      "category": "Extension Boards & Power Strips",
+      "condition": "Poor",
+      "action": "recycle",
+      "recommendedAction": "recycle",
+      "partnerId": "P-05",
+      "partnerName": "EcoLoop Collection Point",
+      "status": "Assigned",
+      "createdAt": 1794734381587,
+      "pickupDate": null,
+      "pickupSlot": null,
+      "address": "Flat 402, Sunshine Heights, Borivali West",
+      "locality": "Borivali",
+      "pincode": "400066",
+      "weight": 4.2,
+      "internalNotes": [
+        "Batch of worn cords and damaged 4-way power strip for material recovery."
+      ],
+      "history": [
+        {
+          "status": "Pending",
+          "at": 1794734381587,
+          "user": "Priya Patel",
+          "note": "Recycle request initiated online"
+        },
+        {
+          "status": "Assigned",
+          "at": 1794820781587,
+          "user": "Smart Allocation",
+          "note": "Assigned to EcoLoop Collection Point"
+        }
+      ]
+    },
+    {
+      "id": "REQ-1002",
+      "owner": "Arun Mehta",
+      "ownerEmail": "arun@example.com",
+      "deviceId": "DEV-102",
+      "deviceName": "Heavy Duty Extension Board",
+      "category": "Extension Boards & Power Strips",
+      "condition": "Poor",
+      "action": "repair",
+      "recommendedAction": "repair",
+      "partnerId": null,
+      "partnerName": null,
+      "status": "Pending",
+      "createdAt": 1794993581587,
+      "pickupDate": null,
+      "pickupSlot": null,
+      "address": "Shop 12, Link Road, Kandivali West",
+      "locality": "Kandivali",
+      "pincode": "400101",
+      "weight": 1.4,
+      "internalNotes": [],
+      "history": [
+        {
+          "status": "Pending",
+          "at": 1794993581587,
+          "user": "Arun Mehta",
+          "note": "Request submitted for inspection"
+        }
+      ]
+    },
+    {
+      "id": "REQ-1003",
+      "owner": "Sneha Kapoor",
+      "ownerEmail": "sneha@example.com",
+      "deviceId": "DEV-103",
+      "deviceName": "VGA Display Cable (3m)",
+      "category": "Cables & Chargers",
+      "condition": "Good",
+      "action": "donate",
+      "recommendedAction": "donate",
+      "partnerId": "P-03",
+      "partnerName": "Digital Bridges Foundation",
+      "status": "Pickup Scheduled",
+      "createdAt": 1794907181587,
+      "pickupDate": "2026-11-22",
+      "pickupSlot": "14:00–16:00",
+      "address": "B-103, Gokul Park, Mira Road",
+      "locality": "Mira Road",
+      "pincode": "401107",
+      "weight": 0.35,
+      "internalNotes": [
+        "Suitable for school computer lab setup."
+      ],
+      "history": [
+        {
+          "status": "Pending",
+          "at": 1794907181587,
+          "user": "Sneha Kapoor",
+          "note": "Donation request initiated"
+        },
+        {
+          "status": "Assigned",
+          "at": 1794993581587,
+          "user": "Admin",
+          "note": "Allocated to Digital Bridges Foundation"
+        },
+        {
+          "status": "Accepted",
+          "at": 1794993581587,
+          "user": "Digital Bridges",
+          "note": "Accepted for educational reuse"
+        },
+        {
+          "status": "Pickup Scheduled",
+          "at": 1795079981587,
+          "user": "Volunteer Team",
+          "note": "Scheduled pickup for Friday"
+        }
+      ]
+    },
+    {
+      "id": "REQ-1004",
+      "owner": "Vikrant Roy",
+      "ownerEmail": "vikrant@example.com",
+      "deviceId": "DEV-104",
+      "deviceName": "Old CRT Monitor 17\"",
+      "category": "Monitor",
+      "condition": "Non-working",
+      "action": "recycle",
+      "recommendedAction": "recycle",
+      "partnerId": "P-05",
+      "partnerName": "EcoLoop Collection Point",
+      "status": "Completed",
+      "createdAt": 1793956781587,
+      "pickupDate": "2026-11-10",
+      "pickupSlot": "10:00–12:00",
+      "address": "Rowhouse 4, Dahisar East",
+      "locality": "Dahisar",
+      "pincode": "400068",
+      "weight": 16.5,
+      "internalNotes": [
+        "Contains leaded glass. Transferred safely to smelter partner."
+      ],
+      "history": [
+        {
+          "status": "Pending",
+          "at": 1793956781587,
+          "user": "Vikrant Roy",
+          "note": "Recycle request created"
+        },
+        {
+          "status": "Assigned",
+          "at": 1794043181587,
+          "user": "Admin",
+          "note": "Assigned to EcoLoop"
+        },
+        {
+          "status": "Accepted",
+          "at": 1794129581587,
+          "user": "EcoLoop Ops",
+          "note": "Accepted by partner"
+        },
+        {
+          "status": "Pickup Scheduled",
+          "at": 1794215981587,
+          "user": "EcoLoop Logistics",
+          "note": "Pickup confirmed"
+        },
+        {
+          "status": "Collected",
+          "at": 1794302381587,
+          "user": "Field Collector #4",
+          "note": "Heavy CRT safely loaded into transport"
+        },
+        {
+          "status": "Under Assessment",
+          "at": 1794388781587,
+          "user": "Safety Officer",
+          "note": "Lead glass verification complete"
+        },
+        {
+          "status": "Completed",
+          "at": 1794475181587,
+          "user": "EcoLoop Facility",
+          "note": "Certified recycling certificate generated"
+        }
+      ]
+    }
+  ],
+  "auditLogs": [
+    {
+      "id": "LOG-1795172722176",
+      "action": "STATUS_UPDATED",
+      "user": "Rajesh Sharma",
+      "at": 1795172722176,
+      "details": "Request REQ-1001 status changed to Completed"
+    },
+    {
+      "id": "LOG-1795172585036",
+      "action": "STATUS_UPDATED",
+      "user": "EcoLoop Operations",
+      "at": 1795172585036,
+      "details": "Request REQ-6816 status changed to Completed"
+    },
+    {
+      "id": "LOG-1795172362027",
+      "action": "STATUS_UPDATED",
+      "user": "E-Cycle Administrator",
+      "at": 1795172362027,
+      "details": "Request REQ-2683 status changed to Accepted"
+    },
+    {
+      "id": "LOG-1795171915408",
+      "action": "USER_REGISTERED",
+      "user": "customerb@example.com",
+      "at": 1795171915408,
+      "details": "Registered new account with role resident"
+    },
+    {
+      "id": "LOG-1795171915394",
+      "action": "STATUS_UPDATED",
+      "user": "Priya Patel",
+      "at": 1795171915394,
+      "details": "Request REQ-5370 status changed to Cancelled"
+    },
+    {
+      "id": "LOG-1795170780079",
+      "action": "STATUS_UPDATED",
+      "user": "EcoLoop Operations",
+      "at": 1795170780079,
+      "details": "Request REQ-6816 status changed to Collected"
+    },
+    {
+      "id": "LOG-1795170780073",
+      "action": "STATUS_UPDATED",
+      "user": "EcoLoop Operations",
+      "at": 1795170780073,
+      "details": "Request REQ-6816 status changed to Pickup Scheduled"
+    },
+    {
+      "id": "LOG-1795170780052",
+      "action": "STATUS_UPDATED",
+      "user": "Rajesh Sharma",
+      "at": 1795170780052,
+      "details": "Request REQ-1001 status changed to Under Assessment"
+    },
+    {
+      "id": "LOG-1795170714313",
+      "action": "STATUS_UPDATED",
+      "user": "EcoLoop Operations",
+      "at": 1795170714313,
+      "details": "Request REQ-6816 status changed to Collected"
+    },
+    {
+      "id": "LOG-1795170714305",
+      "action": "STATUS_UPDATED",
+      "user": "EcoLoop Operations",
+      "at": 1795170714305,
+      "details": "Request REQ-6816 status changed to Pickup Scheduled"
+    },
+    {
+      "id": "LOG-1795170714286",
+      "action": "STATUS_UPDATED",
+      "user": "Rajesh Sharma",
+      "at": 1795170714286,
+      "details": "Request REQ-1001 status changed to Under Assessment"
+    },
+    {
+      "id": "LOG-1795170697739",
+      "action": "STATUS_UPDATED",
+      "user": "EcoLoop Operations",
+      "at": 1795170697739,
+      "details": "Request REQ-6816 status changed to Collected"
+    },
+    {
+      "id": "LOG-1795170697733",
+      "action": "STATUS_UPDATED",
+      "user": "EcoLoop Operations",
+      "at": 1795170697733,
+      "details": "Request REQ-6816 status changed to Pickup Scheduled"
+    },
+    {
+      "id": "LOG-1795170697717",
+      "action": "STATUS_UPDATED",
+      "user": "Rajesh Sharma",
+      "at": 1795170697717,
+      "details": "Request REQ-1001 status changed to Under Assessment"
+    },
+    {
+      "id": "LOG-1795169398201",
+      "action": "STATUS_UPDATED",
+      "user": "Priya Patel",
+      "at": 1795169398201,
+      "details": "Request REQ-7563 status changed to Cancelled"
+    },
+    {
+      "id": "LOG-1795169397151",
+      "action": "STATUS_UPDATED",
+      "user": "Priya Patel",
+      "at": 1795169397151,
+      "details": "Request REQ-7563 status changed to Rejected"
+    },
+    {
+      "id": "LOG-1795169395478",
+      "action": "STATUS_UPDATED",
+      "user": "Priya Patel",
+      "at": 1795169395478,
+      "details": "Request REQ-7563 status changed to Cancelled"
+    },
+    {
+      "id": "LOG-1795169390091",
+      "action": "STATUS_UPDATED",
+      "user": "Priya Patel",
+      "at": 1795169390091,
+      "details": "Request REQ-7563 status changed to Pickup Scheduled"
+    },
+    {
+      "id": "LOG-1795167596506",
+      "action": "STATUS_UPDATED",
+      "user": "Technician Anita",
+      "at": 1795167596506,
+      "details": "Request REQ-6412 status changed to Completed"
+    },
+    {
+      "id": "LOG-1795167596495",
+      "action": "STATUS_UPDATED",
+      "user": "Technician Anita",
+      "at": 1795167596495,
+      "details": "Request REQ-6412 status changed to Under Assessment"
+    },
+    {
+      "id": "LOG-1795167596485",
+      "action": "STATUS_UPDATED",
+      "user": "Field Collector Ramesh",
+      "at": 1795167596485,
+      "details": "Request REQ-6412 status changed to Collected"
+    },
+    {
+      "id": "LOG-1795167596476",
+      "action": "STATUS_UPDATED",
+      "user": "Siddharth Rao",
+      "at": 1795167596476,
+      "details": "Request REQ-6412 status changed to Pickup Scheduled"
+    },
+    {
+      "id": "LOG-1795167596466",
+      "action": "STATUS_UPDATED",
+      "user": "GreenTech Repair Hub",
+      "at": 1795167596466,
+      "details": "Request REQ-6412 status changed to Accepted"
+    },
+    {
+      "id": "LOG-1795167596449",
+      "action": "PARTNER_ASSIGNED",
+      "user": "E-Cycle Administrator",
+      "at": 1795167596449,
+      "details": "Assigned request REQ-6412 (Laptop) to GreenTech Repair Hub"
+    },
+    {
+      "id": "LOG-1795167596396",
+      "action": "USER_REGISTERED",
+      "user": "customer_1795167596386@test.com",
+      "at": 1795167596396,
+      "details": "Registered new account with role resident"
+    },
+    {
+      "id": "LOG-01",
+      "action": "DATABASE_INITIALIZED",
+      "user": "System",
+      "at": 1795166396997,
+      "details": "Initial schema and seed data created."
+    }
+  ]
+}
