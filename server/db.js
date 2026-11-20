@@ -3,6 +3,7 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 
 const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 const SEED_FILE = path.resolve(__dirname, 'data/db.json');
 const DB_FILE = process.env.VERCEL ? path.resolve('/tmp', 'db.json') : SEED_FILE;
 
