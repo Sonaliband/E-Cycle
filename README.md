@@ -136,3 +136,20 @@ Production build:
 ```bash
 npm run build
 ```
+
+---
+
+## 🌐 Vercel Full-Stack Deployment
+
+The project is pre-configured for seamless full-stack deployment on Vercel:
+
+- **Frontend**: Vite SPA outputting to `dist/`
+- **Backend APIs**: Express server exported as a Serverless Function in `api/index.js`
+- **Routing**: `vercel.json` maps `/api/*` to the serverless backend and `/*` to `index.html`
+
+### Setting Environment Variables on Vercel
+In your Vercel Project Dashboard (`Settings` -> `Environment Variables`), configure:
+- `GEMINI_API_KEY`: Your Google Gemini API key for AI vision recognition & chatbot
+- `OPENAI_API_KEY`: *(Optional)* Fallback OpenAI API key
+- `NODE_ENV`: `production`
+
